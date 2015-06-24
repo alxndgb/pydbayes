@@ -1,0 +1,40 @@
+running sdist
+running egg_info
+creating pydbayes.egg-info
+writing pydbayes.egg-info/PKG-INFO
+writing top-level names to pydbayes.egg-info/top_level.txt
+writing dependency_links to pydbayes.egg-info/dependency_links.txt
+writing entry points to pydbayes.egg-info/entry_points.txt
+writing pydbayes.egg-info/PKG-INFO
+writing top-level names to pydbayes.egg-info/top_level.txt
+writing dependency_links to pydbayes.egg-info/dependency_links.txt
+writing entry points to pydbayes.egg-info/entry_points.txt
+writing manifest file 'pydbayes.egg-info/SOURCES.txt'
+reading manifest file 'pydbayes.egg-info/SOURCES.txt'
+writing manifest file 'pydbayes.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.txt
+
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating pydbayes-0.0.1
+creating pydbayes-0.0.1/pydbayes.egg-info
+creating pydbayes-0.0.1/scripts
+making hard links in pydbayes-0.0.1...
+hard linking scoring.py -> pydbayes-0.0.1
+hard linking setup.py -> pydbayes-0.0.1
+hard linking timer.py -> pydbayes-0.0.1
+hard linking utilities.py -> pydbayes-0.0.1
+hard linking pydbayes.egg-info/PKG-INFO -> pydbayes-0.0.1/pydbayes.egg-info
+hard linking pydbayes.egg-info/SOURCES.txt -> pydbayes-0.0.1/pydbayes.egg-info
+hard linking pydbayes.egg-info/dependency_links.txt -> pydbayes-0.0.1/pydbayes.egg-info
+hard linking pydbayes.egg-info/entry_points.txt -> pydbayes-0.0.1/pydbayes.egg-info
+hard linking pydbayes.egg-info/top_level.txt -> pydbayes-0.0.1/pydbayes.egg-info
+hard linking pydbayes.egg-info/zip-safe -> pydbayes-0.0.1/pydbayes.egg-info
+hard linking scripts/driver.py -> pydbayes-0.0.1/scripts
+hard linking scripts/neapolitantest.py -> pydbayes-0.0.1/scripts
+Writing pydbayes-0.0.1/setup.cfg
+creating dist
+Creating tar archive
+removing 'pydbayes-0.0.1' (and everything under it)
