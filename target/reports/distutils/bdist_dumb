@@ -3,9 +3,11 @@ running build
 running build_py
 creating build
 creating build/lib
-copying scoring.py -> build/lib
-copying timer.py -> build/lib
-copying utilities.py -> build/lib
+creating build/lib/pydbayes
+copying pydbayes/__init__.py -> build/lib/pydbayes
+copying pydbayes/scoring.py -> build/lib/pydbayes
+copying pydbayes/timer.py -> build/lib/pydbayes
+copying pydbayes/utilities.py -> build/lib/pydbayes
 running build_scripts
 creating build/scripts-2.7
 copying scripts/driver.py -> build/scripts-2.7
@@ -21,12 +23,15 @@ creating build/bdist.macosx-10.10-intel/dumb/Library
 creating build/bdist.macosx-10.10-intel/dumb/Library/Python
 creating build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7
 creating build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages
-copying build/lib/scoring.py -> build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages
-copying build/lib/timer.py -> build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages
-copying build/lib/utilities.py -> build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages
-byte-compiling build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages/scoring.py to scoring.pyc
-byte-compiling build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages/timer.py to timer.pyc
-byte-compiling build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages/utilities.py to utilities.pyc
+creating build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages/pydbayes
+copying build/lib/pydbayes/__init__.py -> build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages/pydbayes
+copying build/lib/pydbayes/scoring.py -> build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages/pydbayes
+copying build/lib/pydbayes/timer.py -> build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages/pydbayes
+copying build/lib/pydbayes/utilities.py -> build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages/pydbayes
+byte-compiling build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages/pydbayes/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages/pydbayes/scoring.py to scoring.pyc
+byte-compiling build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages/pydbayes/timer.py to timer.pyc
+byte-compiling build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages/pydbayes/utilities.py to utilities.pyc
 running install_egg_info
 running egg_info
 writing pydbayes.egg-info/PKG-INFO
@@ -39,7 +44,7 @@ writing dependency_links to pydbayes.egg-info/dependency_links.txt
 writing entry points to pydbayes.egg-info/entry_points.txt
 reading manifest file 'pydbayes.egg-info/SOURCES.txt'
 writing manifest file 'pydbayes.egg-info/SOURCES.txt'
-Copying pydbayes.egg-info to build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages/pydbayes-0.0.1-py2.7.egg-info
+Copying pydbayes.egg-info to build/bdist.macosx-10.10-intel/dumb/Library/Python/2.7/site-packages/pydbayes-0.0.2-py2.7.egg-info
 running install_scripts
 creating build/bdist.macosx-10.10-intel/dumb/usr
 creating build/bdist.macosx-10.10-intel/dumb/usr/local

@@ -1,7 +1,8 @@
-scoring.py
 setup.py
-timer.py
-utilities.py
+pydbayes/__init__.py
+pydbayes/scoring.py
+pydbayes/timer.py
+pydbayes/utilities.py
 pydbayes.egg-info/PKG-INFO
 pydbayes.egg-info/SOURCES.txt
 pydbayes.egg-info/dependency_links.txt
